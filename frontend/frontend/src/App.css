@@ -1,0 +1,212 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f8fafc;
+  color: #1e293b;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 7%;
+  background: white;
+  box-shadow: 0 2px 10px #00000010;
+}
+
+.navbar h2 {
+  color: #1d4ed8;
+}
+
+.navbar h2 span {
+  color: #0f172a;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #334155;
+}
+
+.login-btn,
+.register-btn,
+.explore-btn {
+  padding: 11px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.login-btn {
+  background: #e2e8f0;
+}
+
+.register-btn,
+.explore-btn {
+  background: #2563eb;
+  color: white;
+}
+
+.hero {
+  min-height: 480px;
+  display: flex;
+  align-items: center;
+  padding: 70px 10%;
+  background: linear-gradient(120deg, #dbeafe, #eff6ff);
+}
+
+.hero-content {
+  max-width: 750px;
+}
+
+.tagline {
+  color: #2563eb;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 18px;
+}
+
+.hero h1 {
+  font-size: 44px;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+.hero h1 span {
+  display: block;
+  color: #2563eb;
+}
+
+.description {
+  color: #475569;
+  font-size: 17px;
+  line-height: 1.8;
+  margin-bottom: 25px;
+}
+
+.explore-btn {
+  font-size: 16px;
+  padding: 14px 25px;
+}
+
+.features {
+  text-align: center;
+  padding: 65px 7%;
+}
+
+.features h2 {
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
+.features > p {
+  color: #64748b;
+}
+
+.feature-cards {
+  display: flex;
+  gap: 25px;
+  margin-top: 35px;
+}
+
+.card {
+  flex: 1;
+  background: white;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px #00000010;
+}
+
+.card h3 {
+  color: #2563eb;
+  margin-bottom: 15px;
+}
+
+.card p {
+  color: #64748b;
+  line-height: 1.6;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  background: #0f172a;
+  color: white;
+}
+
+@media (max-width: 700px) {
+  .navbar {
+    flex-wrap: wrap;
+    gap: 18px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+  }
+
+  .feature-cards {
+    flex-direction: column;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+}
+
+.hero h1 {
+  color: #1e293b;
+}
+
+.features h2 {
+  color: #1e293b;
+}
+
+.features > p {
+  color: #64748b;
+}
+
+.auth-buttons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.login-btn,
+.register-btn {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.login-btn {
+  color: #2563eb;
+  border: 1px solid #2563eb;
+}
+
+.register-btn {
+  background: #2563eb;
+  color: white;
+}
+
+.explore-btn {
+  display: inline-block;
+  text-decoration: none;
+  background: #2563eb;
+  color: white;
+  padding: 13px 25px;
+  border-radius: 6px;
+  font-weight: bold;
+  margin-top: 15px;
+}
